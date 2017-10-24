@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+ENV['RUBY_DEP_GEM_SILENCE_WARNINGS'] = '1'
 gem 'rails',          '5.0.1'
 gem 'bootstrap-sass', '3.3.6'
 gem 'prawn'
